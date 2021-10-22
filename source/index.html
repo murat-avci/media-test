@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Media, media works, авто, лизинг, IT платформа, поиск автомобиля">
+  <meta name="description" content="Тестовый сайт компании Media Works">
+  <meta name="author" content="Media Works">
+  <title>Media Works</title>
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="preload" href="fonts/SegoeUI.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/SegoeUI-SemiBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Whitney-Light.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Whitney-Semibold Regular.woff2" as="font" crossorigin="anonymous">
+</head>
+<body>
+  <header class="main-header">
+    <a href="#" class="main-header__logo">
+      <img src="img/icon-test.svg" width="147" height="32" alt="Logo Test">
+    </a>
+    <nav class="main-nav">
+      <div class="main-nav__wrap">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Клиентам</a></li>
+        </ul>
+        <ul class="main-nav__user">
+          <li class="main-nav__user-item"><a href="#" class="main-nav__user-link">Войти</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="intro__title-block">
+        <h1>Подбор авто в лизинг по выгодной цене</h1>
+        <p>IT платформа по быстрому поиску автомобиля от официальных дилеров РФ</p>
+        <a href="#" class="intro__link">Регистрация</a>
+      </div>
+      <img src="img/bg-intro.png" width="689" height="442" alt="Background Intro">
+    </section>
+    <section class="benefits">
+      <h2>Меньше условий – больше возможностей</h2>
+        <ul class="benefits__list">
+          <li class="benefits__item">
+            <div class="benefits__title-block">
+              <h3>Экономия времени</h3>
+              <p>Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат на рекламу и маркетинг.</p>
+            </div>
+            <div class="benefits__icon"></div>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__title-block">
+              <h3>Никаких задержек</h3>
+              <p>Вы получаете запросы сразу же после отправки клиентом.</p>
+            </div>
+            <div class="benefits__icon"></div>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__title-block">
+              <h3>Максимальная информативность</h3>
+              <p>В каждой заявке указан регион поиска, марка и модель авто, а так же  индивидуальные запросы клиента.</p>
+            </div>
+            <div class="benefits__icon"></div>
+          </li>
+          <li class="benefits__item">
+            <div class="benefits__title-block">
+              <h3>Удобство общения</h3>
+              <p>Для каждого запроса у вас открыт чат
+                с клиентом с возможностью отправки документов.</p>
+            </div>
+            <div class="benefits__icon"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="register">
+      <div class="register__wrap">
+        <h2>Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h2>
+        <a href="#" class="register__link">Регистрация</a>
+      </div>
+    </section>
+  </main>
+  <section class="modal">
+    <button class="modal__close" type="button" aria-label="close button"></button>
+    <form action="#" method="post">
+      <h2>Авторизация</h2>
+      <fieldset>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+      </fieldset>
+      <fieldset>
+        <label for="password">Пароль</label>
+        <input type="password" id="password" autocomplete="current-password" pattern="[0-9a-fA-F]{4,8}" title="Введите пароль, состоящий из 4-8 шестнадцатеричных цифр." minlength="4"
+        maxlength="8" size="8" required>
+      </fieldset>
+      <button class="modal__submit" type="submit" aria-label="Войти">Войти</button>
+    </form>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>
