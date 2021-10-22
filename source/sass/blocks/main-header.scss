@@ -1,0 +1,7 @@
+.main-header {
+  display: grid;
+  grid-template-columns: 242px 1fr;
+  justify-items: end;
+  align-items: center;
+  padding: 24px 0 24px;
+}

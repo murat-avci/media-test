@@ -1,0 +1,21 @@
+.benefits {
+  padding: 130px 0;
+}
+
+.benefits__wrap {
+  margin-top: 50px;
+}
+
+.benefits__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.benefits__item {
+  padding: 21px 10px 21px 40px;
+}
+
+.benefits__item p {
+  margin-top: 22px;
+}
