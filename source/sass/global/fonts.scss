@@ -3,15 +3,15 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: local("Whitney"), url("../../fonts/Whitney-Light.woff2") format("woff2"), url("../../fonts/Whitney-Light.woff") format("woff");
+  src: local("Whitney"), url("../fonts/Whitney-Light.woff2") format("woff2"), url("../fonts/Whitney-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "Whitney";
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: local("Whitney"), url("../../fonts/Whitney-Semibold\ Regular.woff2") format("woff2"), url("../../fonts/Whitney-Semibold\ Regular.woff") format("woff");
+  src: local("Whitney"), url("../fonts/Whitney-SemiBold.woff2") format("woff2"), url("../fonts/Whitney-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -19,13 +19,36 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: local("SegoeUI"), url("../../fonts/SegoeUI.woff2") format("woff2"), url("../../fonts/SegoeUI.woff") format("woff");
+  src: local("SegoeUI"), url("../fonts/SegoeUI.woff2") format("woff2"), url("../fonts/SegoeUI.woff") format("woff");
 }
 
 @font-face {
   font-family: "Segoe UI";
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: local("SegoeUI"), url("../../fonts/SegoeUI-SemiBold.woff2") format("woff2"), url("../../fonts/SegoeUI-SemiBold.woff") format("woff");
+  src: local("SegoeUI"),
+        url("../fonts/SegoeUI-SemiBold.woff2") format("woff2"),
+        url("../fonts/SegoeUI-SemiBold.woff") format("woff");
+}
+
+/* roboto-regular - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+        url('../fonts/roboto-v29-cyrillic-regular.woff2') format('woff2'),
+        url('../fonts/roboto-v29-cyrillic-regular.woff') format('woff');
+}
+/* roboto-700 - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+        url('../fonts/roboto-v29-cyrillic-700.woff2') format('woff2'),
+        url('../fonts/roboto-v29-cyrillic-700.woff') format('woff');
 }

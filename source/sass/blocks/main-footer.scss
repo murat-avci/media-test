@@ -1,0 +1,31 @@
+.main-footer {
+  font-family: $roboto;
+  font-size: 30px;
+  line-height: 35px;
+  color: $basic-black;
+}
+
+.main-footer__wrap {
+  display: flex;
+  align-items: center;
+  max-width: fit-content;
+  padding: 40px 31px 40px 79px;
+  margin: 0 auto;
+}
+
+.main-footer__copyright {
+  margin-right: 77px;
+}
+
+.main-footer p {
+  font-weight: 700;
+}
+
+.main-footer a {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 9px;
+  font-weight: 400;
+  color: $basic-black;
+  cursor: pointer;
+}

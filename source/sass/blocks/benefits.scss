@@ -13,9 +13,47 @@
 }
 
 .benefits__item {
+  display: flex;
+  justify-content: space-between;
   padding: 21px 10px 21px 40px;
+  background-color: $bg-benefits;
+  border-radius: 6px;
+  min-height: 235px;
+
+  &:nth-child(2n) p {
+    max-width: 272px;
+  }
+
+  &:nth-child(2n-1):not(:first-child) p {
+    padding-right: 0;
+  }
+}
+
+.benefits__title-block {
+  margin-top: 22px;
+}
+
+.benefits h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  color: $heading;
+}
+
+.benefits h3 {
+  max-width: 223px;
+  font-size: 22px;
+  line-height: 29px;
+  font-weight: 600;
+  color: $heading;
 }
 
 .benefits__item p {
+  max-width: 292px;
   margin-top: 22px;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: $text-content;
+  padding-right: 8px;
 }

@@ -1,7 +1,18 @@
+// root: true
+
+// env:
+//   browser: true
+
+// extends:
+//   "htmlacademy/es5"
+
 root: true
 
-env:
-  browser: true
+env: {
+  "browser": true,
+  "es6": true,
+  "node": true
+}
 
 extends:
   "htmlacademy/es5"

@@ -1,9 +1,11 @@
 html {
+  position: relative;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
+  font-family: $whitney;
   max-width: 1185px;
   height: 100%;
   margin: 0 auto;
